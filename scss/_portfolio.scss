@@ -1,0 +1,71 @@
+.portfolio-block {
+  .portfolio__content {
+    padding: 8em 0 10em;
+  }
+  .content__suptitle,
+  .content__title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .portfolio-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 9em;
+    margin-top: 7em;
+  }
+  .item {
+    &:first-child .col-image {
+      border: 5px solid #fcd7df;
+    }
+    &:nth-child(2) .col-image {
+      border: 5px solid #c9f3e2;
+    }
+    &:nth-child(3) .col-image,
+    &:nth-child(4) .col-image {
+      border: 5px solid #f2d5ba;
+    }
+  }
+  .item .row {
+    display: flex;
+    gap: 7em;
+    justify-content: center;
+    .col-image {
+      border-radius: 25px;
+      width: 34%;
+      height: 400px;
+      img {
+        position: relative;
+        z-index: -1;
+        margin: 20px 0 0 20px;
+      }
+    }
+    .col-text {
+      width: 42%;
+      padding: 40px 0;
+    }
+    .item__suptitle {
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.75;
+    }
+    .item__title {
+      font-size: 2.2em;
+      color: #111;
+      font-weight: bold;
+      line-height: 1.286;
+      margin-bottom: 0.5em;
+    }
+    .item__subtitle {
+      font-size: 1em;
+      color: #5e5858;
+      line-height: 1.5;
+    }
+  }
+  .item:nth-child(2n) .row {
+    flex-direction: row-reverse;
+    img {
+      margin: 20px 0 0 -62px;
+    }
+  }
+}

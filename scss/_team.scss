@@ -1,0 +1,33 @@
+.team-block {
+  .team__content {
+    padding-top: 6em;
+    .content__suptitle,
+    .content__title {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 6em;
+    }
+    .col:nth-child(2n) {
+      margin-top: 3.5em;
+    }
+    .item__image {
+      text-align: center;
+    }
+    .item__title {
+      font-size: 24px;
+      color: #111;
+      font-weight: bold;
+      line-height: 2;
+      margin-top: 1em;
+    }
+    .item__subtitle {
+      color: #adb0ba;
+    }
+  }
+}

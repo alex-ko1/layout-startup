@@ -1,0 +1,114 @@
+footer {
+  .footer__content {
+    .top-footer {
+      padding-top: 8em;
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        li {
+          a {
+            color: #5e5858;
+            transition: 0.3s;
+            &:hover {
+              margin-left: 6px;
+            }
+          }
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .col-email {
+      width: 35%;
+    }
+    .col__text {
+      font-size: 18px;
+      font-family: "Montserrat", sans-serif;
+      color: rgb(94, 88, 88);
+      line-height: 1.5;
+      margin: 2em 0 1.5em;
+    }
+    .col__input {
+      position: relative;
+      width: max-content;
+      input[type="email"] {
+        border-color: transparent;
+        border-radius: 7px;
+        background-color: rgb(243, 249, 251);
+        font-size: 1em;
+        width: 350px;
+        height: 63px;
+        padding-left: 20px;
+        outline: none;
+      }
+      input[type="submit"] {
+        font-size: 0;
+        border: none;
+        background-color: transparent;
+        background-image: url("/img/envelope-regular.svg");
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 18px;
+        top: 25%;
+        cursor: pointer;
+      }
+    }
+    .col__title {
+      font-size: 24px;
+      color: rgb(17, 17, 17);
+      font-weight: bold;
+      line-height: 1.083;
+      margin: 0 16px 1.5em 0;
+    }
+    .col__get-in-touch {
+      .fa-solid,
+      .fa-regular {
+        display: flex;
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin-right: 1em;
+        flex-direction: column;
+      }
+    }
+
+    .footer__text--subtitle {
+      margin-bottom: 2em;
+      width: 83%;
+      color: #5e5858;
+      font-size: 1em;
+      line-height: 1.143;
+    }
+  }
+  .bottom-footer {
+    margin: 6em 0 2em;
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .follow-us {
+      font-size: 18px;
+      color: rgb(17, 17, 17);
+      font-weight: bold;
+      line-height: 1.444;
+      margin-right: 2em;
+    }
+
+    .soc-links {
+      display: inline-block;
+    }
+    .copyright {
+      font-size: 18px;
+      color: rgb(102, 102, 102);
+      line-height: 1.333;
+      text-align: right;
+    }
+  }
+  .strong {
+    color: #111;
+  }
+}

@@ -1,0 +1,39 @@
+.about-block {
+  .about__content {
+    margin-bottom: 7em;
+    .content__title {
+      width: 100%;
+    }
+    .content__subtitle,
+    .about-text {
+      color: #5e5858;
+      font-size: 1.5em;
+      line-height: 1.4;
+    }
+    .about-text {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+    .btn {
+      text-transform: uppercase;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      & > .col {
+        width: 40%;
+      }
+      .col__image {
+        display: flex;
+        align-items: center;
+        img {
+          height: max-content;
+          width: 300px;
+        }
+      }
+      .col__image-2 img {
+        margin-top: 6em;
+      }
+    }
+  }
+}

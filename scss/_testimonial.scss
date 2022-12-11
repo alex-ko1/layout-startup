@@ -1,0 +1,89 @@
+.testimonial-block {
+  .testimonial__content {
+    margin-top: 8em;
+    padding-bottom: 8em;
+    .row {
+      display: flex;
+      gap: 6em;
+      .fa-quote-left {
+        color: #c5dad6;
+        font-size: 3em;
+        position: relative;
+        top: 110px;
+        left: -70px;
+      }
+      .col {
+        .comment__title {
+          font-size: 3em;
+          color: #111;
+          font-weight: bold;
+          line-height: 1.7;
+        }
+        .comment__text {
+          width: 80%;
+          color: #5e5858;
+          line-height: 1.5;
+          margin-bottom: 2.5em;
+          font-size: 1.2em;
+        }
+        .comment__user {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1em;
+        }
+        .bar {
+          //float: left;
+          color: rgb(51, 46, 152);
+        }
+        .comment__user-name {
+          //float: left;
+          margin: 0 1em 0 0.5em;
+          color: #111111;
+          font-weight: bold;
+          font-size: 1.2em;
+        }
+        .comment__user-short-info {
+          color: #b2b5be;
+        }
+      }
+      .col-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+    }
+    .testimonial-slider {
+      max-width: 600px;
+    }
+  }
+  .slick-dots {
+    margin-top: 1em;
+    display: flex;
+    margin: 0;
+    padding: 1rem 0;
+
+    list-style-type: none;
+
+    li {
+      margin: 0 0.25rem;
+    }
+
+    button {
+      display: block;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #c04ae2;
+
+      text-indent: -9999px;
+      transition: 0.3s;
+    }
+
+    li.slick-active button {
+      background-color: #c04ae2;
+      width: 30px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.build-trust {
+  //background-image: url("/img/bg-build-trust-1.png");
+  // background-position: center 3%;
+  // background-repeat: no-repeat;
+
+  .build-trust__content {
+    padding: 150px 0 30px;
+    .content__suptitle {
+      text-align: center;
+    }
+    .content__title {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1.5em;
+      margin: 4.5em 0 8em;
+      .col {
+        text-align: center;
+        padding: 3em 2em 3em;
+        border: 4px solid;
+        border-radius: 18px;
+        .item__title {
+          font-size: 30px;
+          color: #111111;
+          font-weight: bold;
+          line-height: 1.4;
+          margin: 1.5em 0 1em;
+        }
+        .item__subtitle {
+          font-size: 20px;
+          //font-family: "Montserrat", sans-serif;
+          color: rgb(94, 88, 88);
+          line-height: 1.2;
+          margin-bottom: 1em;
+        }
+        &:first-child {
+          border-color: rgb(252, 215, 223);
+        }
+        &:nth-child(2) {
+          border-color: #c9f3e2;
+        }
+        &:last-child {
+          border-color: #f2d5ba;
+        }
+        .bg {
+          border-style: solid;
+          border-width: 6px;
+          border-radius: 18px;
+          background-color: rgba(255, 255, 255, 0);
+          position: absolute;
+          left: 370px;
+          top: 1579px;
+          width: 368px;
+          height: 495px;
+          z-index: 445;
+        }
+      }
+    }
+  }
+}

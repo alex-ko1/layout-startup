@@ -1,0 +1,64 @@
+.blog-block {
+  @include bg-wrapper;
+  background-image: url("/img/bg-group-blog.png");
+  .blog__content {
+    padding-top: 7em;
+  }
+  .content__title {
+    float: left;
+  }
+  .go-to {
+    margin-bottom: 6em;
+    text-align: right;
+    padding-top: 1.2em;
+  }
+  .row {
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-between;
+    padding-bottom: 9em;
+    .col {
+      width: 30%;
+      border: 1px solid #b3bed1;
+      border-radius: 18px;
+      box-sizing: border-box;
+      padding: 40px;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        border-color: transparent;
+      }
+    }
+  }
+  .box__suptitle {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.667;
+  }
+  .box__title {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.667;
+  }
+  .box__text {
+    font-size: 18px;
+    line-height: 1.667;
+    color: #5e5858;
+  }
+  .box__user {
+    display: flex;
+    align-items: center;
+    .box__user--nick {
+      margin-left: 10px;
+    }
+    .box__like {
+      margin-left: auto;
+      .fa-heart {
+        cursor: pointer;
+        color: red;
+      }
+    }
+  }
+  .like-count {
+  }
+}
