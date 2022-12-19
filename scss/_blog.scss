@@ -1,6 +1,6 @@
 .blog-block {
   @include bg-wrapper;
-  background-image: url("/img/bg-group-blog.png");
+  background-image: url("../img/bg-group-blog.png");
   .blog__content {
     padding-top: 7em;
   }
@@ -31,17 +31,17 @@
     }
   }
   .box__suptitle {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     line-height: 1.667;
   }
   .box__title {
-    font-size: 21px;
+    font-size: 1.167em;
     font-weight: bold;
     line-height: 1.667;
   }
   .box__text {
-    font-size: 18px;
+    font-size: 1em;
     line-height: 1.667;
     color: #5e5858;
   }
